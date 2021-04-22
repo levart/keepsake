@@ -98,11 +98,7 @@ button:hover {
   margin: 0 auto;
 }
 
-.container footer {
-  width: 100%;
-  height: 208px;
-  background-color: #2d2d30;
-}
+
 
 .container .container__content {
   width: 100%;
@@ -136,6 +132,27 @@ header .header_content .nav {
   margin-top: 74px;
   float: right;
 }
+
+/* menu */
+.menu {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline-block;
+  font-family: "Bebas Neue", cursive;
+  font-size: 16px;
+  margin: 0 27px;
+}
+
+.menu li a{
+  color: #4D4D4D;
+}
+
+.menu li a:hover{
+  color: #ef5f60;
+}
+
 
 /* head slogan*/
 .head-slogan {
@@ -281,4 +298,51 @@ header .header_content .nav {
   color: #c3c3c3;
   font-size: 17px;
   margin-bottom: 10px;
+}
+
+
+/* Footer */
+
+.container footer {
+  width: 100%;
+  min-height: auto;
+  background-color: #2d2d30;
+  padding: 67px 0;
+}
+
+.container footer .copyright {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+footer .social {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+
+footer .social .social-icon {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin: 5px;
+  
+}
+
+footer .social .social-icon .material-icons {
+  font-size: 34px !important;
+}
+
+.social-icon.facebook {
+  color: #3b5998;
+}
+.social-icon.email {
+  color: #ffffff;
+}
+.social-icon.call {
+  color: #0af17e;
 }
